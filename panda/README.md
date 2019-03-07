@@ -28,6 +28,9 @@ banner
 
 
 数据接口 
+	
+	 接口暗号   /xm --------  https://api.m.panda.tv/
+
   首页   Home
   nav  banner  
   	https://api.m.panda.tv/ajax_slider_cate?__plat=h5&cate=index	

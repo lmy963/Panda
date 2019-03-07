@@ -2,16 +2,16 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+import router from './router' 
 import  Axios from "axios"
 import lazy from  "vue-lazyload"
-
+import  "@/common/style/resset.css"
 Vue.prototype.$axios = Axios
 Vue.config.productionTip = false
 
 
 Axios.interceptors.response.use((res)=>{
-	return  res
+	return  res.data
 },(err)=>{
 	return Promise.reject(err)
 })
