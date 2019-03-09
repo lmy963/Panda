@@ -1,11 +1,11 @@
 <template>
-	<div class="login">
-		这里是登录页面
+	<div class="chat">
+		这里是详情页的 chat  组件 选项卡
 	</div>
 </template>
 <script>
 	export default{
-		name:"login"
+		name:"chat"
 	}
 </script>
 <style lang="less" scoped>

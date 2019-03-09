@@ -1,9 +1,11 @@
 <template>
-	<div class="chat"></div>
+	<div class="game">
+		这里是游戏页面
+	</div>
 </template>
 <script>
 	export default{
-		name:"chat"
+		name:"game"
 	}
 </script>
 <style lang="less" scoped>

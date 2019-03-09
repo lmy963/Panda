@@ -1,11 +1,7 @@
 <template>
 	<div class="home">
-		<m-header></m-header>
-
 		<banner></banner>
-		<keep-alive>
-			<router-view></router-view>
-		</keep-alive>
+		
 	</div>
 </template>
 <script>

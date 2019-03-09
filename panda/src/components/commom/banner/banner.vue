@@ -2,9 +2,10 @@
 	<div class="swiper-container banner">
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for='(item,index) in list' :key="index">
-        <img :src="item.img" >{{item}}
+        <img :src="item.img" >
       </div>
     </div>
+
 
   </div>
 </template>
@@ -35,7 +36,9 @@
 			 	console.log(this.list)
     			var swiper = new Swiper ('.swiper-container', {
          	 	autoplay:true,
+
          	 	loop: true // 循环模式选项
+
         })
       }
   }
@@ -53,4 +56,5 @@
          width:100%;
 		height:100%;
        }
+  
 </style>

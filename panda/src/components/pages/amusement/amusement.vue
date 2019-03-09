@@ -1,11 +1,11 @@
 <template>
-	<div class="login">
-		这里是登录页面
+	<div class="amusement">
+		这里是娱乐页面
 	</div>
 </template>
 <script>
 	export default{
-		name:"login"
+		name:"amusement"
 	}
 </script>
 <style lang="less" scoped>

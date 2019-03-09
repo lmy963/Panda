@@ -1,9 +1,11 @@
 <template>
-	<div class="content"></div>
+	<div class="start">
+		这里是星秀页面
+	</div>
 </template>
 <script>
 	export default{
-		name:"content"
+		name:"start"
 	}
 </script>
 <style lang="less" scoped>

@@ -5,7 +5,7 @@
 		</router-link>	
 		<ul class="navList">
 			<li v-for="(item,index) in list" :key="index">
-				<router-link to="item.path" class="item">{{item.name}}</router-link>
+				<router-link :to="item.path" class="item">{{item.name}}</router-link>
 			</li>
 		</ul>
 			 <router-link class="search" to="/search" tag="div"></router-link>	
@@ -13,14 +13,14 @@
 </template>
 <script>
 	export default{
-		name:"nav",
+		name:"m-header",
 		data(){
 			return {
 				list:[
-				{ name:"首页",path:""},
-				{ name:"游戏",path:""},
-				{ name:"娱乐",path:""},
-				{ name:"星秀",path:""}
+				{ name:"首页",path:"/enter/home"},
+				{ name:"游戏",path:"/enter/game"},
+				{ name:"娱乐",path:"/enter/amusement"},
+				{ name:"星秀",path:"/enter/startshow"}
 				]
 			}
 		}
